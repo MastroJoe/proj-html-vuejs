@@ -1,0 +1,107 @@
+main {
+  background-color: $color-lightgrey;
+  // sezione jumbo
+  .jumbo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    .container {
+      .info {
+        padding-top: 90px;
+        @include flex-start;
+        flex-direction: column;
+        img {
+          width: 20%;
+        }
+        .title {
+          font-size: 21px;
+        }
+      }
+    }
+  }
+  // sezione 3 cards
+  .container {
+    h1 {
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 30px;
+      font-weight: 100;
+    }
+    .container-cards {
+      @include flex-center-space-between;
+      .cards {
+        background-color: #ffffff;
+        img {
+          width: 420px;
+        }
+        h5 {
+          padding-top: 1em;
+          padding-left: 1em;
+        }
+        p {
+          padding-top: 1em;
+          padding-left: 1em;
+        }
+        a {
+          padding: 1em 1em;
+        }
+      }
+    }
+  }
+  // sezione card-panel
+  .container {
+    .container-card-panel {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 65px;
+      .card-panel {
+        height: 402px;
+        width: 643px;
+        @include flex-start-column-center;
+        .info-panel {
+        }
+      }
+      .panel {
+        img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+    }
+  }
+  // sezione links
+  .container {
+    .container-links {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .links {
+        li {
+          h5 {
+            padding-bottom: 1em;
+            a {
+              color: $color-darkgrey ;
+            }
+          }
+          p {
+            padding-bottom: 1em;
+            a {
+              color: $color-text-navbar-top;
+            }
+          }
+        }
+      }
+    }
+  }
+  // sezione icone social
+  .container {
+    .container-icons {
+      display: flex;
+      justify-content: flex-end;
+      i {
+        font-size: 35px;
+        padding-left: 10px;
+      }
+    }
+  }
+}
