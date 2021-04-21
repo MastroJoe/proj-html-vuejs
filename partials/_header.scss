@@ -1,34 +1,28 @@
 header {
-  background-color: $color-background-black;
-  .container {
-    .navbar-top {
-      width: 95%;
-      ul {
-        @include flex-end;
-        li {
-          @include flex-center;
-          color: $color-text-navbar-top;
-          font-size: 13px;
+  display: flex;
+  justify-content: space-around;
+  .navbar {
+    width: 75%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    padding-top: 2em;
+    .navbar-items {
+      @include flex-center-between;
+      .navbar-brand {
+      }
+      .navbar-icons {
+        .cart {
           i {
-            color: $color-icon-navbar-top;
-            padding-right: 0.5em;
+            color: $color-white;
+            font-size: 22px;
           }
         }
-      }
-    }
-    .navbar-menu {
-      ul {
-        @include flex-start;
-        align-items: center;
-        li {
-          img {
-            width: 75%;
-            padding-right: 1em;
-          }
-          a {
+        .bars {
+          i {
             color: $color-white;
-            padding-right: 4em;
-            font-size: 14px;
+            padding-left: 20px;
+            font-size: 25px;
           }
         }
       }
