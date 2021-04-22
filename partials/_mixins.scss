@@ -40,9 +40,9 @@
 
 @mixin flex-start-start-space {
 display: flex;
-align-items: flex-start;
 align-content: flex-start;
 justify-content: space-between;
+align-items: flex-start;
 }
 
 @mixin flex-column-wrap-center {
@@ -51,6 +51,14 @@ justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
 }
+
+@mixin flex-column-evenly-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 // TITOLI
 @mixin title-h3 {
   color: $color-wood;
