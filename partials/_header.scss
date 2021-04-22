@@ -2,14 +2,15 @@ header {
   display: flex;
   justify-content: space-around;
   .navbar {
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
     position: fixed;
     top: 0;
     padding-top: 2em;
     .navbar-items {
       @include flex-center-between;
-      .navbar-brand {
+      width: 100%;
+      .navbar-logo {
       }
       .navbar-icons {
         .cart {

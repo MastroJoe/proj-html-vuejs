@@ -14,6 +14,11 @@ ul {
   list-style: none;
 }
 
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .text-center {
   text-align: center;
 }
@@ -35,7 +40,7 @@ header {
   justify-content: space-around;
 }
 header .navbar {
-  width: 75%;
+  width: 60%;
   margin: 0 auto;
   position: fixed;
   top: 0;
@@ -45,6 +50,7 @@ header .navbar .navbar-items {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 header .navbar .navbar-items .navbar-icons .cart i {
   color: #ffffff;
@@ -59,5 +65,16 @@ header .navbar .navbar-items .navbar-icons .bars i {
 main {
   height: 100%;
   width: 100%;
-  background-color: #505050;
+}
+main .jumbotron {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+main .jumbotron .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  width: 100%;
 }

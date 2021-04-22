@@ -1,5 +1,17 @@
 main {
   height: 100%;
   width: 100%;
-  background-color: $color-grey; //per vedere icone navbar
+  // jumbotron
+  .jumbotron {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1;
+      width: 100%;
+    }
+  }
 }

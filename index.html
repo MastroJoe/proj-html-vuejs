@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="dist/css/master.css">
@@ -15,11 +16,13 @@
   <header>
     <!-- navbar fissa in alto -->
     <div class="navbar">
-      <nav class="navbar-items navbar-light bg-light">
+      <nav class="navbar-items">
         <!-- navbar sx con logo -->
-        <a class="navbar-brand" href="#">
-          <img src="dist/img/avadabarbers-stickylogo-x1.png" width="170" height="60" alt="logo">
-        </a>
+        <div class="navbar-logo">
+          <a class="navbar-brand" href="#">
+            <img src="dist/img/avadabarbers-stickylogo-x1.png" width="170" height="60" alt="logo">
+          </a>
+        </div>
         <!-- navbar dx con icone -->
         <div class="navbar-icons">
           <a class="cart" href="#">
@@ -33,6 +36,25 @@
     </div>
   </header>
   <main>
+    <!-- sezione jumbotron -->
+    <div class="jumbotron jumbotron-fluid"
+         style="background-image: url('dist/img/avadabarbers-homepage-hero-bg.jpg')">
+      <div class="container">
+        <!-- titolo testo e button -->
+        <div class="container-info">
+          <h1 class="display-4">Barber Shop</h1>
+          <hr class="my-4">
+          <p>The Pinnacle of Male Grooming</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg upper" href="#" role="button">learn more</a>
+          </p>
+        </div>
+        <!-- img barbiere -->
+        <div class="container-img">
+          <img src="dist/img/avadabarbers_hero_focalmirror-600x825.png" alt="barber">
+        </div>
+      </div>
+    </div>
 
   </main>
   <footer>
