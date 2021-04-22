@@ -38,6 +38,19 @@
   justify-content: center;
 }
 
+@mixin flex-start-start-space {
+display: flex;
+align-items: flex-start;
+align-content: flex-start;
+justify-content: space-between;
+}
+
+@mixin flex-column-wrap-center {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
 // TITOLI
 @mixin title-h3 {
   color: $color-wood;

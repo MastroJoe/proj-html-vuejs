@@ -31,10 +31,6 @@ main {
         p {
           font-size: 25px;
           color: $color-silvergrey;
-          // button
-          .btn {
-            color: $color-wood;
-          }
         }
       }
       .container-img {
@@ -91,11 +87,9 @@ main {
     }
     .services-cards {
       width: 100%;
-      display: flex;
-      align-items: flex-start;
-      align-content: flex-start;
-      justify-content: space-between;
+      @include flex-start-start-space;
       .card {
+        @include flex-column-wrap-center;
         img {
 
         }
@@ -104,7 +98,45 @@ main {
           text-align: center;
         }
         p {
-          
+          text-align: center;
+        }
+      }
+    }
+  }
+  // sezione prodotti
+  .products {
+    width: 100%;
+    height: 900px;
+    background-color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    .products-title {
+      h3 {
+        @include title-h3;
+        text-align: center;
+      }
+      h1 {
+        @include title-h1;
+        text-align: center;
+      }
+    }
+    .services-cards {
+      width: 100%;
+      @include flex-start-start-space;
+      .card {
+        @include flex-column-wrap-center;
+        img {
+
+        }
+        h4 {
+          @include title-h4;
+          text-align: center;
+        }
+        p {
+          text-align: center;
+          color: $color-wood;
         }
       }
     }

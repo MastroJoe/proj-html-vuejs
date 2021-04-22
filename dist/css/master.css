@@ -43,6 +43,10 @@ ul {
   font-style: italic;
 }
 
+.btn {
+  color: #ae8652;
+}
+
 header {
   display: flex;
   justify-content: space-around;
@@ -105,9 +109,6 @@ main .jumbotron .container .container-info .my-4 {
 main .jumbotron .container .container-info p {
   font-size: 25px;
   color: #b0b0b0;
-}
-main .jumbotron .container .container-info p .btn {
-  color: #ae8652;
 }
 main .jumbotron .container .container-img {
   width: calc(100% / 2);
@@ -177,9 +178,63 @@ main .services .services-cards {
   align-content: flex-start;
   justify-content: space-between;
 }
+main .services .services-cards .card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
 main .services .services-cards .card h4 {
   color: #ae8652;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+}
+main .services .services-cards .card p {
+  text-align: center;
+}
+main .products {
+  width: 100%;
+  height: 900px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .products .products-title h3 {
+  color: #ae8652;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+main .products .products-title h1 {
+  color: #b0b0b0;
+  font-size: 70px;
+  font-family: "Abril Fatface", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+main .products .services-cards {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+main .products .services-cards .card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+main .products .services-cards .card h4 {
+  color: #ae8652;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+main .products .services-cards .card p {
+  text-align: center;
+  color: #ae8652;
 }
