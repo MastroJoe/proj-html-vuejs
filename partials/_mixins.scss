@@ -37,3 +37,23 @@
   flex-direction: column;
   justify-content: center;
 }
+
+// TITOLI
+@mixin title-h3 {
+  color: $color-wood;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@mixin title-h1  {
+  color: $color-silvergrey;
+  font-size: 70px;
+  font-family: $font_title;
+  font-weight: bold;
+}
+
+@mixin title-h4 {
+  color: $color-wood;
+  font-size: 30px;
+  font-weight: bold;
+}

@@ -59,14 +59,10 @@ main {
       align-items: center;
       height: 300px;
       h3 {
-        color: $color-wood;
-        font-size: 15px;
+      @include title-h3;
       }
       h1 {
-        color: $color-lightergrey;
-        font-size: 70px;
-        font-family: $font_title;
-        font-weight: bold;
+      @include title-h1;
       }
       a {
         color: $color-wood;
@@ -80,7 +76,37 @@ main {
     height: 900px;
     background-color: $color-white;
     display: flex;
-    justify-content: center;
-    
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    .services-title {
+      h3 {
+        @include title-h3;
+        text-align: center;
+      }
+      h1 {
+        @include title-h1;
+        text-align: center;
+      }
+    }
+    .services-cards {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      align-content: flex-start;
+      justify-content: space-between;
+      .card {
+        img {
+
+        }
+        h4 {
+          @include title-h4;
+          text-align: center;
+        }
+        p {
+          
+        }
+      }
+    }
   }
 }
