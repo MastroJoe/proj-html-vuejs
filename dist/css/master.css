@@ -19,6 +19,14 @@ ul {
   margin: 0 auto;
 }
 
+.container-fluid {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .text-center {
   text-align: center;
 }
@@ -70,7 +78,7 @@ main .jumbotron {
   background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  margin: 0;
 }
 main .jumbotron .container {
   display: flex;
@@ -108,4 +116,34 @@ main .jumbotron .container .container-img {
 main .jumbotron .container .container-img img {
   max-width: 100%;
   height: auto;
+}
+main .award {
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .award .container-award {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+main .award .container-award h3 {
+  color: #ae8652;
+  font-size: 15px;
+}
+main .award .container-award h1 {
+  color: #eae8e6;
+  font-size: 70px;
+  font-family: "Abril Fatface", sans-serif;
+  font-weight: bold;
+}
+main .award .container-award a {
+  color: #ae8652;
+  font-size: 17px;
 }

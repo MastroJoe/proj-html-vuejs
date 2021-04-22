@@ -6,7 +6,7 @@ main {
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    margin: 0;
     .container {
       display: flex;
       flex-wrap: wrap;
@@ -46,5 +46,36 @@ main {
         }
       }
     }
+  }
+  // sezione award Pro Barbers
+  .award {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    @include flex-column-center;
+    .container-award {
+      @include flex-column-center;
+      align-items: center;
+      height: 300px;
+      h3 {
+        color: $color-wood;
+        font-size: 15px;
+      }
+      h1 {
+        color: $color-lightergrey;
+        font-size: 70px;
+        font-family: $font_title;
+        font-weight: bold;
+      }
+      a {
+        color: $color-wood;
+        font-size: 17px;
+      }
+    }
+  }
+  // sezione servizi
+  .services {
+    
   }
 }
