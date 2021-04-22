@@ -12,6 +12,39 @@ main {
       flex-wrap: wrap;
       flex: 1;
       width: 100%;
+      .container-info {
+        width: calc(100% / 2);
+        height: auto;
+        @include flex-column-center;
+        // titolo
+        .display-4 {
+          color: $color-white;
+          font-family: $font_title;
+          font-size: 85px;
+          font-weight: bold;
+        }
+        // linea orizzontale
+        .my-4 {
+          border-color: $color-wood;
+        }
+        // sottotitolo
+        p {
+          font-size: 25px;
+          color: $color-silvergrey;
+          // button
+          .btn {
+            color: $color-wood;
+          }
+        }
+      }
+      .container-img {
+        width: calc(100% / 2);
+        height: 100%;
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
     }
   }
 }

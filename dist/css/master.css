@@ -78,3 +78,34 @@ main .jumbotron .container {
   flex: 1;
   width: 100%;
 }
+main .jumbotron .container .container-info {
+  width: calc(100% / 2);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .jumbotron .container .container-info .display-4 {
+  color: #ffffff;
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 85px;
+  font-weight: bold;
+}
+main .jumbotron .container .container-info .my-4 {
+  border-color: #ae8652;
+}
+main .jumbotron .container .container-info p {
+  font-size: 25px;
+  color: #b0b0b0;
+}
+main .jumbotron .container .container-info p .btn {
+  color: #ae8652;
+}
+main .jumbotron .container .container-img {
+  width: calc(100% / 2);
+  height: 100%;
+}
+main .jumbotron .container .container-img img {
+  max-width: 100%;
+  height: auto;
+}
