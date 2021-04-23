@@ -288,3 +288,109 @@ main .container-banner .banner .container-description .description h1 {
 main .container-banner .banner .container-description .description p {
   color: #b0b0b0;
 }
+main .container-reviews {
+  height: 700px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .container-reviews .reviews .reviews-title h3 {
+  color: #ae8652;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+main .container-reviews .reviews .reviews-title h1 {
+  color: #b0b0b0;
+  font-size: 70px;
+  font-family: "Abril Fatface", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+main .container-reviews .reviews .reviews-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main .container-reviews .reviews .reviews-cards .card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+main .container-reviews .reviews .reviews-cards .card p {
+  text-align: center;
+}
+main .container-reviews .reviews .reviews-cards .card span {
+  max-width: 120px;
+}
+main .container-reviews .reviews .reviews-cards .card span img {
+  border-style: none;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+  border-radius: 200px;
+}
+main .container-reviews .reviews .reviews-cards .card h3 {
+  color: #ae8652;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+main .container-blog {
+  height: 950px;
+  background-color: #eae8e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-items: center;
+}
+main .container-blog .blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .container-blog .blog .blog-title h3 {
+  color: #ae8652;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+main .container-blog .blog .blog-title h1 {
+  color: #b0b0b0;
+  font-size: 70px;
+  font-family: "Abril Fatface", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+main .container-blog .blog .blog-cards {
+  width: 100%;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+main .container-blog .blog .blog-cards .card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+main .container-blog .blog .blog-cards .card img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+main .container-blog .blog .blog-cards .card h4 {
+  color: #ae8652;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+main .container-blog .blog .blog-cards .card p {
+  text-align: center;
+}

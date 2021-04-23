@@ -136,7 +136,7 @@ main {
       }
     }
   }
-  // sezione banner shaving Butter
+  // sezione banner Shaving Butter
   .container-banner {
     height: 500px;
     background-color: $color-white;
@@ -180,6 +180,88 @@ main {
   }
   // sezione reviews
   .container-reviews {
+    height: 700px;
+    background-color: $color-white;
+    @include flex-column-evenly-center;
+    .reviews {
 
+      .reviews-title {
+        h3 {
+          @include title-h3;
+          text-align: center;
+        }
+        h1 {
+          @include title-h1;
+          text-align: center;
+        }
+      }
+      .reviews-cards {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .card {
+          @include flex-column-wrap-center;
+          p {
+            text-align: center;
+          }
+          span {
+            max-width: 120px;
+            img {
+              border-style: none;
+              vertical-align: top;
+              max-width: 100%;
+              height: auto;
+              border-radius: 200px;
+            }
+          }
+          h3 {
+            @include title-h3;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  // sezione Blog Posts
+  .container-blog {
+    height: 950px;
+    background-color: $color-lightergrey;
+    @include flex-column-evenly-center;
+    align-items: center;
+    .blog {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .blog-title {
+        h3 {
+          @include title-h3;
+          text-align: center;
+        }
+        h1 {
+          @include title-h1;
+          text-align: center;
+        }
+      }
+      .blog-cards {
+        width: 100%;
+        @include flex-start-start-space;
+        .card {
+          @include flex-column-wrap-center;
+          align-content: center;
+          img {
+            vertical-align: top;
+            max-width: 100%;
+            height: auto;
+          }
+          h4 {
+            @include title-h4;
+            text-align: center;
+          }
+          p {
+            text-align: center;
+          }
+        }
+      }
+    }
   }
 }
