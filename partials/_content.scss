@@ -140,5 +140,46 @@ main {
   .container-banner {
     height: 500px;
     background-color: $color-white;
+    .banner {
+      height: 100%;
+      @include flex-start;
+      .container-img {
+        width: calc(100% / 1.5);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left top;
+        border-style: solid;
+        border-width: 4px 0px 0px;
+        border-color: $color-wood;
+        img {
+
+        }
+      }
+      .container-description {
+        width: 100%;
+        @include flex-center;
+        border-style: solid;
+        border-width: 4px 0px 0px;
+        border-color: $color-wood;
+        background-color: $color-darkgray;
+        .description {
+          @include flex-column-center;
+          h3 {
+            @include title-h3;
+          }
+          h1 {
+            @include title-h1;
+            padding-bottom: 30px;
+          }
+          p {
+            color: $color-silvergrey;
+          }
+        }
+      }
+    }
+  }
+  // sezione reviews
+  .container-reviews {
+
   }
 }
