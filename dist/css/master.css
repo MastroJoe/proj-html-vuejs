@@ -219,9 +219,7 @@ main .products .products-title h1 {
 main .products .products-cards {
   width: 100%;
   display: flex;
-  align-content: flex-start;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
 }
 main .products .products-cards .cards {
   display: flex;
@@ -238,4 +236,8 @@ main .products .products-cards .cards h4 {
 main .products .products-cards .cards p {
   text-align: center;
   color: #ae8652;
+}
+main .container-banner {
+  height: 500px;
+  background-color: #ffffff;
 }

@@ -119,7 +119,7 @@ main {
     }
     .products-cards {
       width: 100%;
-      @include flex-start-start-space;
+      @include flex-center;
       .cards {
         @include flex-column-wrap-center;
         img {
@@ -135,5 +135,10 @@ main {
         }
       }
     }
+  }
+  // sezione banner shaving Butter
+  .container-banner {
+    height: 500px;
+    background-color: $color-white;
   }
 }
