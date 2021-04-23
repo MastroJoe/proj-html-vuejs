@@ -6,6 +6,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  position: relative;
+}
+
 a {
   text-decoration: none;
 }
@@ -393,4 +397,11 @@ main .container-blog .blog .blog-cards .card h4 {
 }
 main .container-blog .blog .blog-cards .card p {
   text-align: center;
+}
+
+footer .footer-top {
+  height: 500px;
+}
+footer .footer-bottom {
+  height: 100px;
 }
