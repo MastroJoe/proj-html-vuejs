@@ -1,8 +1,44 @@
 footer {
   .footer-top {
     height: 500px;
+    background-color: $color-darkgray;
+    .container-cards {
+      display: flex;
+      align-items: flex-end;
+      .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        img {
+          vertical-align: top;
+          max-width: 100%;
+          height: auto;
+        }
+        p {
+          color: $color-silvergrey;
+          text-align: center;
+          font-size: 16px;
+          .btn {
+            font-size: 14;
+          }
+        }
+        h3 {
+          @include title-h3;
+        }
+        .container-icons {
+          .icons {
+            i {
+              color: $color-silvergrey;
+            }
+          }
+        }
+      }
+    }
   }
   .footer-bottom {
     height: 100px;
+    background-color: $color-codgrey;
+    @include flex-center-center;
   }
 }

@@ -33,6 +33,7 @@ ul {
 
 .card {
   position: unset;
+  border: 0;
 }
 
 .text-center {
@@ -377,31 +378,67 @@ main .container-blog .blog .blog-cards {
   justify-content: space-between;
   align-items: flex-start;
 }
-main .container-blog .blog .blog-cards .card {
+main .container-blog .blog .blog-cards .cards {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
 }
-main .container-blog .blog .blog-cards .card img {
+main .container-blog .blog .blog-cards .cards img {
   vertical-align: top;
   max-width: 100%;
   height: auto;
 }
-main .container-blog .blog .blog-cards .card h4 {
+main .container-blog .blog .blog-cards .cards h4 {
   color: #ae8652;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
 }
-main .container-blog .blog .blog-cards .card p {
+main .container-blog .blog .blog-cards .cards p {
   text-align: center;
 }
 
 footer .footer-top {
   height: 500px;
+  background-color: #111110;
+}
+footer .footer-top .container-cards {
+  display: flex;
+  align-items: flex-end;
+}
+footer .footer-top .container-cards .cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer .footer-top .container-cards .cards img {
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+footer .footer-top .container-cards .cards p {
+  color: #b0b0b0;
+  text-align: center;
+  font-size: 16px;
+}
+footer .footer-top .container-cards .cards p .btn {
+  font-size: 14;
+}
+footer .footer-top .container-cards .cards h3 {
+  color: #ae8652;
+  font-size: 15px;
+  font-weight: bold;
+}
+footer .footer-top .container-cards .cards .container-icons .icons i {
+  color: #b0b0b0;
 }
 footer .footer-bottom {
   height: 100px;
+  background-color: #191817;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

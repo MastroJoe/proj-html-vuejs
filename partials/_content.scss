@@ -245,7 +245,7 @@ main {
       .blog-cards {
         width: 100%;
         @include flex-start-start-space;
-        .card {
+        .cards {
           @include flex-column-wrap-center;
           align-content: center;
           img {
