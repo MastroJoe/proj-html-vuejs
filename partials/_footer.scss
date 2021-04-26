@@ -30,6 +30,10 @@ footer {
             i {
               color: $color-silvergrey;
               padding: 0 5px;
+              font-size: 20px;
+              &:hover {
+                color: $color-wood;
+              }
             }
           }
         }

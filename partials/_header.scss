@@ -16,14 +16,21 @@ header {
         .cart {
           i {
             color: $color-white;
-            font-size: 22px;
+            font-size: 20px;
+            text-align: center;
+            &:hover {
+              color: $color-wood;
+            }
           }
         }
         .bars {
           i {
             color: $color-white;
             padding-left: 20px;
-            font-size: 25px;
+            font-size: 23px;
+            &:hover {
+              color: $color-wood;
+            }
           }
         }
       }

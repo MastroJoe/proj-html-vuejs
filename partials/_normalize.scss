@@ -9,8 +9,12 @@ body{
   position: relative;
 }
 
-a {
-  text-decoration: none;
+// a {
+//   text-decoration: none;
+// }
+
+a:-webkit-any-link{
+text-decoration:none !important;
 }
 
 ul {
@@ -19,4 +23,8 @@ ul {
 
 img {
   cursor: pointer;
+}
+
+.navbar {
+  padding: 0;
 }

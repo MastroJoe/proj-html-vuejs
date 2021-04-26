@@ -12,375 +12,376 @@
     <title>Barber Shop</title>
 </head>
 <body style="width: 100%;height: 100vh;">
-  <!-- header -->
-  <header>
-    <!-- navbar fissa in alto -->
-    <div class="navbar">
-      <nav class="navbar-items">
-        <!-- navbar sx con logo -->
-        <div class="navbar-logo">
-          <a class="navbar-brand" href="#">
-            <img src="dist/img/avadabarbers-stickylogo-x1.png" width="170" height="60" alt="logo">
-          </a>
+  <!-- Vue js -->
+  <div id="root">
+    <!-- header -->
+    <header>
+      <!-- navbar fissa in alto -->
+      <div class="navbar">
+        <nav class="navbar-items">
+          <!-- navbar sx con logo -->
+          <div class="navbar-logo">
+            <a class="navbar-brand" href="#">
+              <img src="dist/img/avadabarbers-stickylogo-x1.png" width="170" height="60" alt="logo">
+            </a>
+          </div>
+          <!-- navbar dx con icone -->
+          <div class="navbar-icons">
+            <a class="cart" href="#">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a class="bars" href="#">
+              <i class="fas fa-bars"></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- sezione jumbotron -->
+      <div class="jumbotron jumbotron-fluid"
+           style="background-image: url('dist/img/avadabarbers-homepage-hero-bg.jpg')">
+        <div class="container">
+          <!-- titolo testo e button -->
+          <div class="container-info">
+            <h1 class="display-4">Barber Shop</h1>
+            <hr class="my-4 mr-300">
+            <p>The Pinnacle of Male Grooming</p>
+            <p class="lead pt-20">
+              <a class="btn btn-lg upper " href="#" role="button">learn more</a>
+            </p>
+          </div>
+          <!-- img barbiere -->
+          <div class="container-img">
+            <img src="dist/img/avadabarbers_hero_focalmirror-600x825.png" alt="barber">
+          </div>
         </div>
-<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-        <!-- UTILIZZARE VUE JS PER HAMBURGER MENU         -->
-        <!-- navbar dx con icone -->
-        <div class="navbar-icons">
-          <a class="cart" href="#">
-            <i class="fas fa-shopping-cart"></i>
-          </a>
-          <a class="bars" href="#">
-            <i class="fas fa-bars"></i>
-          </a>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <!-- sezione jumbotron -->
-    <div class="jumbotron jumbotron-fluid"
-         style="background-image: url('dist/img/avadabarbers-homepage-hero-bg.jpg')">
-      <div class="container">
-        <!-- titolo testo e button -->
-        <div class="container-info">
-          <h1 class="display-4">Barber Shop</h1>
-          <hr class="my-4 mr-300">
-          <p>The Pinnacle of Male Grooming</p>
+      </div>
+      <!-- sezione award winning -->
+      <div class="container-fluid award"
+           style="background-image: url('dist/img/avadabarbers-about-introbackground.jpg')">
+        <div class="container-award">
+          <h3 class="upper">award winning</h3>
+          <h1>Pro Barbers</h1>
           <p class="lead pt-20">
-            <a class="btn btn-lg upper " href="#" role="button">learn more</a>
+            <a class="btn btn-lg upper " href="#" role="button">meet your new barber</a>
           </p>
         </div>
-        <!-- img barbiere -->
-        <div class="container-img">
-          <img src="dist/img/avadabarbers_hero_focalmirror-600x825.png" alt="barber">
-        </div>
       </div>
-    </div>
-    <!-- sezione award winning -->
-    <div class="container-fluid award"
-         style="background-image: url('dist/img/avadabarbers-about-introbackground.jpg')">
-      <div class="container-award">
-        <h3 class="upper">award winning</h3>
-        <h1>Pro Barbers</h1>
-        <p class="lead pt-20">
-          <a class="btn btn-lg upper " href="#" role="button">meet your new barber</a>
-        </p>
-      </div>
-    </div>
-    <!-- sezione servizi divisa in 3 colonne -->
-    <div class="container-fluid services">
-      <div class="container services">
-        <div class="services-title">
-          <h3 class="upper">mens grooming</h3>
-          <h1>Services</h1>
-        </div>
-        <!-- 3 colonne con 3 cards -->
-        <div class="services-cards">
-          <!-- trim & cut -->
-          <div class="card">
-            <img class="small-img" src="dist/img/avadabarbers-trimcut-icon-before.png" alt="trim">
-            <h4 class="ptb-20">Trim & Cut</h4>
-            <p>Avada Barbers are experts in the
-              <br>
-               lickety split trim and hair cut. Quick
-              <br>
-               but careful and ridiculously good
-              <br>
-               looking.
-            </p>
+      <!-- sezione servizi divisa in 3 colonne -->
+      <div class="container-fluid services">
+        <div class="container services">
+          <div class="services-title">
+            <h3 class="upper">mens grooming</h3>
+            <h1>Services</h1>
           </div>
-          <!-- wash & dry -->
-          <div class="card">
-            <img class="small-img" src="dist/img/avadabarbers-washndry-icon.png" alt="shampoo">
-            <h4 class="ptb-20">Wash & Dry</h4>
-            <p>Take a seat in our fine leather chairs,
-              <br>
-              lean back and let us lather you a fresh
-              <br>
-              head in a luxurious fashion.
-            </p>
-          </div>
-          <!-- beard Tidy -->
-          <div class="card">
-            <img class="small-img" src="dist/img/avadabarbers-beardtrim-icon.png" alt="tidy">
-            <h4 class="ptb-20">Beard Tidy</h4>
-            <p>Tame the tangles and untidy facial
-              <br>
-              hairs like a gentleman with our
-              <br>
-              Beard Tidy services from Avada
-              <br>
-              Barbers.
-            </p>
-          </div>
-        </div>
-        <!-- button -->
-        <p class="lead">
-          <a class="btn btn-lg upper " href="#" role="button">read about our services</a>
-        </p>
-      </div>
-    </div>
-    <!-- sezione Products -->
-    <div class="container-fluid products"
-         style="background-image: url('dist/img/avadabarbers-reviewsbackground.jpg')">
-      <div class="container products">
-        <div class="products-title">
-          <h3 class="upper">we have you covered</h3>
-          <h1>Avada Grooming Products</h1>
-        </div>
-        <!-- 4 colonne con 4 cards -->
-        <div class="products-cards">
-          <!-- brush -->
-          <div class="cards">
-            <img src="dist/img/brush_dark-400x400.png" alt="brush">
-            <h4>Brush</h4>
-            <p>$15.00</p>
-          </div>
-          <!-- scissors -->
-          <div class="cards">
-            <img src="dist/img/scissors-400x400.png" alt="scissors">
-            <h4>Scissors</h4>
-            <p>$85.00</p>
-          </div>
-          <!-- hot oil -->
-          <div class="cards">
-            <img src="dist/img/hot_oil_dark-400x400.png" alt="oil">
-            <h4>Hot Oil</h4>
-            <p>$15.00</p>
-          </div>
-          <!-- razor -->
-          <div class="cards">
-            <img src="dist/img/straight_razor_dark-400x400.png" alt="razor">
-            <h4>Straight Razor</h4>
-            <p>$30.00</p>
-          </div>
-        </div>
-        <!-- button -->
-        <p class="lead">
-          <a class="btn btn-lg upper " href="#" role="button">shop our product range</a>
-        </p>
-      </div>
-    </div>
-    <!-- sezione banner Shaving Butter -->
-    <div class="container-fluid container-banner">
-      <!-- banner centrale -->
-      <div class="container banner">
-        <!-- img butter a sx -->
-        <div class="container-img"
-             style="background-image: url('dist/img/avadabarbers-cta-background.jpg')">
-          <img src="dist/img/shaving_butter-400x400.png" alt="butter">
-        </div>
-        <!-- descrizione a dx -->
-        <div class="container-description">
-          <div class="description">
-            <h3 class="upper">this months featured product</h3>
-            <h1>Shaving Butter</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-              <br>
-              laoreet enim est, vel molestie dolor ultrices ut. Lorem ipsum dolor sit
-              <br>
-              amet, consectetur adipiscing elit.
-            </p>
-            <p class="lead">
-              <a class="btn btn-lg upper " href="#" role="button">buy now</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- sezione Reviews -->
-    <div class="container-fluid container-reviews">
-      <div class="container reviews">
-        <div class="reviews-title">
-          <h3 class="upper">what people say</h3>
-          <h1>Reviews</h1>
-        </div>
-        <!-- 3 colonne con 3 cards review -->
-        <div class="reviews-cards pt-40">
-          <div class="card">
-            <p>Lorem ipsum dolor sit amet,
-              <br>
-               consectetur adipiscing elit. Morbi
-              <br>
-               mollis eleifend ante ut sagittis. Sed
-              <br>
-               sodales, urna et imperdiet placerat, ex
-              <br>
-               nisi aliquam orci, ac varius odio libero
-              <br>
-               et arcu.
-            </p>
-            <span class="ptb-20">
-              <img src="dist/img/avadabarbers-trimcut-gallery6-400x400.jpg" alt="gallery6">
-            </span>
-            <h3 class="italic">John Doe</h3>
-          </div>
-          <!-- wash & dry -->
-          <div class="card">
-            <p>Lorem ipsum dolor sit amet,
-              <br>
-               consectetur adipiscing elit. Morbi
-              <br>
-               mollis eleifend ante ut sagittis. Sed
-              <br>
-               sodales, urna et imperdiet placerat, ex
-              <br>
-               nisi aliquam orci, ac varius odio libero
-              <br>
-               et arcu.
-            </p>
-            <span class="ptb-20">
-              <img src="dist/img/avadabarbers-trimcut-gallery7-400x402.jpg" alt="gallery7">
-            </span>
-            <h3 class="italic">Pete Jones</h3>
-          </div>
-          <!-- beard Tidy -->
-          <div class="card">
-            <p>Lorem ipsum dolor sit amet,
-              <br>
-               consectetur adipiscing elit. Morbi
-              <br>
-               mollis eleifend ante ut sagittis. Sed
-              <br>
-               sodales, urna et imperdiet placerat, ex
-              <br>
-               nisi aliquam orci, ac varius odio libero
-              <br>
-               et arcu.
-            </p>
-            <span class="ptb-20">
-              <img src="dist/img/avadabarbers-trimcut-gallery3-400x402.jpg" alt="gallery3">
-            </span>
-            <h3 class="italic">Mark Wilson</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- sezione Blog Posts -->
-    <div class="container-fluid blog">
-      <div class="container blog">
-        <div class="blog-title">
-          <h3 class="upper">tales from the barber shop</h3>
-          <h1>Recent Blog Posts</h1>
-        </div>
-        <!-- 3 colonne con 3 cards -->
-        <div class="blog-cards">
-          <!-- avada barbers-->
-          <div class="cards">
-            <span class="plr-15">
-              <img src="dist/img/avadabarbers-second-blog-700x441.jpg" alt="blog">
-            </span>
-            <h4>Avada Barbers Now
-              <br>
-              Open
-            </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur
-              <br>
-               adipiscing elit. Phasellus ut dapibus magna.
-              <br>
-               Praesent semper,
-            </p>
-          </div>
-          <!-- right barber -->
-          <div class="cards">
-            <span class="plr-15">
-              <img src="dist/img/avadabarbers-choosing-blog-700x441.jpg" alt="blog">
-            </span>
-            <h4>Choosing The Right
-              <br>
-               Barber
-            </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur
-              <br>
-               adipiscing elit. Phasellus ut dapibus magna.
-              <br>
-               Praesent semper,
-            </p>
-          </div>
-          <!-- service guide -->
-          <div class="cards">
-            <span class="plr-15">
-              <img src="dist/img/avadabarbers-ourservice-blog-700x441.jpg" alt="blog">
-            </span>
-            <h4>Quick Service Guide</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur
-              <br>
-               adipiscing elit. Phasellus ut dapibus magna.
-              <br>
-               Praesent semper,
-            </p>
-          </div>
-        </div>
-        <!-- button -->
-        <p class="lead">
-          <a class="btn btn-lg upper " href="#" role="button">read more from our blog</a>
-        </p>
-      </div>
-    </div>
-    <!-- FOOTER CON LINK Vue -->
-    <footer>
-      <!-- top footer con links -->
-      <div class="container-fluid footer-top">
-        <div class="container container-cards">
-          <!-- suddivisione in 3 cards -->
-          <!-- shop -->
-          <div class="cards">
-            <img src="dist/img/avadabarbers_footer_shop_image-800x624.png" alt="shop">
-            <p class="lead">
-              <a class="btn btn-lg upper " href="#" role="button">shop our range now</a>
-            </p>
-          </div>
-          <!-- contact info -->
-          <div class="cards">
-            <img src="dist/img/avadabarbers-logo-x2-200x70.png" alt="logo">
-            <p class="ptb-50">Avada barbers
-              <br>
-              123 New York Street
-              <br>
-              New York City
-              <br>
-              info@yourwebsite.com
-              <br>
-              +1(555)555-1212
-            </p>
-            <h3 class="upper pb-30">follow us</h3>
-            <!-- icone social networks -->
-            <div class="container-icons">
-              <div class="icons">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-youtube"></i>
-                </a>
-                <a href="#">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </div>
+          <!-- 3 colonne con 3 cards -->
+          <div class="services-cards">
+            <!-- trim & cut -->
+            <div class="card">
+              <img class="small-img" src="dist/img/avadabarbers-trimcut-icon-before.png" alt="trim">
+              <h4 class="ptb-20">Trim & Cut</h4>
+              <p>Avada Barbers are experts in the
+                <br>
+                 lickety split trim and hair cut. Quick
+                <br>
+                 but careful and ridiculously good
+                <br>
+                 looking.
+              </p>
+            </div>
+            <!-- wash & dry -->
+            <div class="card">
+              <img class="small-img" src="dist/img/avadabarbers-washndry-icon.png" alt="shampoo">
+              <h4 class="ptb-20">Wash & Dry</h4>
+              <p>Take a seat in our fine leather chairs,
+                <br>
+                lean back and let us lather you a fresh
+                <br>
+                head in a luxurious fashion.
+              </p>
+            </div>
+            <!-- beard Tidy -->
+            <div class="card">
+              <img class="small-img" src="dist/img/avadabarbers-beardtrim-icon.png" alt="tidy">
+              <h4 class="ptb-20">Beard Tidy</h4>
+              <p>Tame the tangles and untidy facial
+                <br>
+                hairs like a gentleman with our
+                <br>
+                Beard Tidy services from Avada
+                <br>
+                Barbers.
+              </p>
             </div>
           </div>
-          <!-- shop -->
-          <div class="cards">
-            <img src="dist/img/avadabarbers_footer_appointment_image.png" alt="appointment">
-            <p class="lead">
-              <a class="btn btn-lg upper " href="#" role="button">book your appointment</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid footer-bottom">
-        <div class="copyright">
-          <p>
-            © Copyright 2012 - 2021 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress
+          <!-- button -->
+          <p class="lead">
+            <a class="btn btn-lg upper " href="#" role="button">read about our services</a>
           </p>
         </div>
       </div>
-    </footer>
-  </main>
+      <!-- sezione Products -->
+      <div class="container-fluid products"
+           style="background-image: url('dist/img/avadabarbers-reviewsbackground.jpg')">
+        <div class="container products">
+          <div class="products-title">
+            <h3 class="upper">we have you covered</h3>
+            <h1>Avada Grooming Products</h1>
+          </div>
+          <!-- 4 colonne con 4 cards -->
+          <div class="products-cards">
+            <!-- brush -->
+            <div class="cards">
+              <img src="dist/img/brush_dark-400x400.png" alt="brush">
+              <h4>Brush</h4>
+              <p>$15.00</p>
+            </div>
+            <!-- scissors -->
+            <div class="cards">
+              <img src="dist/img/scissors-400x400.png" alt="scissors">
+              <h4>Scissors</h4>
+              <p>$85.00</p>
+            </div>
+            <!-- hot oil -->
+            <div class="cards">
+              <img src="dist/img/hot_oil_dark-400x400.png" alt="oil">
+              <h4>Hot Oil</h4>
+              <p>$15.00</p>
+            </div>
+            <!-- razor -->
+            <div class="cards">
+              <img src="dist/img/straight_razor_dark-400x400.png" alt="razor">
+              <h4>Straight Razor</h4>
+              <p>$30.00</p>
+            </div>
+          </div>
+          <!-- button -->
+          <p class="lead">
+            <a class="btn btn-lg upper " href="#" role="button">shop our product range</a>
+          </p>
+        </div>
+      </div>
+      <!-- sezione banner Shaving Butter -->
+      <div class="container-fluid container-banner">
+        <!-- banner centrale -->
+        <div class="container banner">
+          <!-- img butter a sx -->
+          <div class="container-img"
+               style="background-image: url('dist/img/avadabarbers-cta-background.jpg')">
+            <img src="dist/img/shaving_butter-400x400.png" alt="butter">
+          </div>
+          <!-- descrizione a dx -->
+          <div class="container-description">
+            <div class="description">
+              <h3 class="upper">this months featured product</h3>
+              <h1>Shaving Butter</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                <br>
+                laoreet enim est, vel molestie dolor ultrices ut. Lorem ipsum dolor sit
+                <br>
+                amet, consectetur adipiscing elit.
+              </p>
+              <p class="lead">
+                <a class="btn btn-lg upper " href="#" role="button">buy now</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sezione Reviews -->
+      <div class="container-fluid container-reviews">
+        <div class="container reviews">
+          <div class="reviews-title">
+            <h3 class="upper">what people say</h3>
+            <h1>Reviews</h1>
+          </div>
+          <!-- 3 colonne con 3 cards review -->
+          <div class="reviews-cards pt-40">
+            <div class="card">
+              <p>Lorem ipsum dolor sit amet,
+                <br>
+                 consectetur adipiscing elit. Morbi
+                <br>
+                 mollis eleifend ante ut sagittis. Sed
+                <br>
+                 sodales, urna et imperdiet placerat, ex
+                <br>
+                 nisi aliquam orci, ac varius odio libero
+                <br>
+                 et arcu.
+              </p>
+              <span class="ptb-20">
+                <img src="dist/img/avadabarbers-trimcut-gallery6-400x400.jpg" alt="gallery6">
+              </span>
+              <h3 class="italic">John Doe</h3>
+            </div>
+            <!-- wash & dry -->
+            <div class="card">
+              <p>Lorem ipsum dolor sit amet,
+                <br>
+                 consectetur adipiscing elit. Morbi
+                <br>
+                 mollis eleifend ante ut sagittis. Sed
+                <br>
+                 sodales, urna et imperdiet placerat, ex
+                <br>
+                 nisi aliquam orci, ac varius odio libero
+                <br>
+                 et arcu.
+              </p>
+              <span class="ptb-20">
+                <img src="dist/img/avadabarbers-trimcut-gallery7-400x402.jpg" alt="gallery7">
+              </span>
+              <h3 class="italic">Pete Jones</h3>
+            </div>
+            <!-- beard Tidy -->
+            <div class="card">
+              <p>Lorem ipsum dolor sit amet,
+                <br>
+                 consectetur adipiscing elit. Morbi
+                <br>
+                 mollis eleifend ante ut sagittis. Sed
+                <br>
+                 sodales, urna et imperdiet placerat, ex
+                <br>
+                 nisi aliquam orci, ac varius odio libero
+                <br>
+                 et arcu.
+              </p>
+              <span class="ptb-20">
+                <img src="dist/img/avadabarbers-trimcut-gallery3-400x402.jpg" alt="gallery3">
+              </span>
+              <h3 class="italic">Mark Wilson</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sezione Blog Posts -->
+      <div class="container-fluid blog">
+        <div class="container blog">
+          <div class="blog-title">
+            <h3 class="upper">tales from the barber shop</h3>
+            <h1>Recent Blog Posts</h1>
+          </div>
+          <!-- 3 colonne con 3 cards -->
+          <div class="blog-cards">
+            <!-- avada barbers-->
+            <div class="cards">
+              <span class="plr-15">
+                <img src="dist/img/avadabarbers-second-blog-700x441.jpg" alt="blog">
+              </span>
+              <h4>Avada Barbers Now
+                <br>
+                Open
+              </h4>
+              <p>Lorem ipsum dolor sit amet, consectetur
+                <br>
+                 adipiscing elit. Phasellus ut dapibus magna.
+                <br>
+                 Praesent semper,
+              </p>
+            </div>
+            <!-- right barber -->
+            <div class="cards">
+              <span class="plr-15">
+                <img src="dist/img/avadabarbers-choosing-blog-700x441.jpg" alt="blog">
+              </span>
+              <h4>Choosing The Right
+                <br>
+                 Barber
+              </h4>
+              <p>Lorem ipsum dolor sit amet, consectetur
+                <br>
+                 adipiscing elit. Phasellus ut dapibus magna.
+                <br>
+                 Praesent semper,
+              </p>
+            </div>
+            <!-- service guide -->
+            <div class="cards">
+              <span class="plr-15">
+                <img src="dist/img/avadabarbers-ourservice-blog-700x441.jpg" alt="blog">
+              </span>
+              <h4>Quick Service Guide</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur
+                <br>
+                 adipiscing elit. Phasellus ut dapibus magna.
+                <br>
+                 Praesent semper,
+              </p>
+            </div>
+          </div>
+          <!-- button -->
+          <p class="lead">
+            <a class="btn btn-lg upper " href="#" role="button">read more from our blog</a>
+          </p>
+        </div>
+      </div>
+      <!-- FOOTER CON LINK Vue -->
+      <footer>
+        <!-- top footer con links -->
+        <div class="container-fluid footer-top">
+          <div class="container container-cards">
+            <!-- suddivisione in 3 cards -->
+            <!-- shop -->
+            <div class="cards">
+              <img src="dist/img/avadabarbers_footer_shop_image-800x624.png" alt="shop">
+              <p class="lead">
+                <a class="btn btn-lg upper " href="#" role="button">shop our range now</a>
+              </p>
+            </div>
+            <!-- contact info -->
+            <div class="cards">
+              <img src="dist/img/avadabarbers-logo-x2-200x70.png" alt="logo">
+              <p class="ptb-50">Avada barbers
+                <br>
+                123 New York Street
+                <br>
+                New York City
+                <br>
+                info@yourwebsite.com
+                <br>
+                +1 (555) 555-1212
+              </p>
+              <h3 class="upper pb-30">follow us</h3>
+              <!-- icone social networks -->
+              <div class="container-icons">
+                <div class="icons">
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- shop -->
+            <div class="cards">
+              <img src="dist/img/avadabarbers_footer_appointment_image.png" alt="appointment">
+              <p class="lead">
+                <a class="btn btn-lg upper " href="#" role="button">book your appointment</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid footer-bottom">
+          <div class="copyright">
+            <p>
+              © Copyright 2012 - 2021 | Avada Theme by ThemeFusion | All Rights Reserved | Powered by WordPress
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" charset="utf-8"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script> -->

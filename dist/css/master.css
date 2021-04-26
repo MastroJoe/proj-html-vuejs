@@ -9,8 +9,8 @@ body {
   position: relative;
 }
 
-a {
-  text-decoration: none;
+a:-webkit-any-link {
+  text-decoration: none !important;
 }
 
 ul {
@@ -19,6 +19,10 @@ ul {
 
 img {
   cursor: pointer;
+}
+
+.navbar {
+  padding: 0;
 }
 
 .container {
@@ -308,12 +312,19 @@ header .navbar .navbar-items {
 }
 header .navbar .navbar-items .navbar-icons .cart i {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 20px;
+  text-align: center;
+}
+header .navbar .navbar-items .navbar-icons .cart i:hover {
+  color: #409ad3;
 }
 header .navbar .navbar-items .navbar-icons .bars i {
   color: #ffffff;
   padding-left: 20px;
-  font-size: 25px;
+  font-size: 23px;
+}
+header .navbar .navbar-items .navbar-icons .bars i:hover {
+  color: #409ad3;
 }
 
 main {
@@ -684,6 +695,10 @@ footer .footer-top .container-cards .cards h3 {
 footer .footer-top .container-cards .cards .container-icons .icons i {
   color: #b0b0b0;
   padding: 0 5px;
+  font-size: 20px;
+}
+footer .footer-top .container-cards .cards .container-icons .icons i:hover {
+  color: #409ad3;
 }
 footer .footer-bottom {
   height: 100px;

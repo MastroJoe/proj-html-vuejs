@@ -11,7 +11,19 @@ Vue.config.devtools = true;
 var app = new Vue({
   el: '#root',
   data: {
-    menu: []
+    // HEADER
+    navbarImg: [{
+      name: 'Home',
+      link: '#'
+    }],
+    navbarIcons: [{
+      name: 'shopping-cart',
+      link: '#'
+    }, {
+      name: 'bag',
+      link: '#'
+    }] // FOOTER  
+
   }
 });
 
