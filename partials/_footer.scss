@@ -16,9 +16,8 @@ footer {
           height: auto;
         }
         p {
-          color: $color-silvergrey;
+          @include paragraph;
           text-align: center;
-          font-size: 16px;
           .btn {
             font-size: 14;
           }
@@ -40,5 +39,10 @@ footer {
     height: 100px;
     background-color: $color-codgrey;
     @include flex-center-center;
+    .copyright {
+      p {
+        @include paragraph;
+      }
+    }
   }
 }
