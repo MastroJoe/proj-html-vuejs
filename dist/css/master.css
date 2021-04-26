@@ -342,7 +342,7 @@ main .jumbotron .container .container-info {
 }
 main .jumbotron .container .container-info .display-4 {
   color: #ffffff;
-  font-family: "Abril Fatface", sans-serif;
+  font-family: "Abril Fatface", cursive;
   font-size: 85px;
   font-weight: bold;
 }
@@ -387,8 +387,7 @@ main .award .container-award h3 {
 main .award .container-award h1 {
   color: #b0b0b0;
   font-size: 70px;
-  font-family: "Abril Fatface", sans-serif;
-  font-weight: bold;
+  font-family: "Abril Fatface", cursive;
 }
 main .award .container-award a {
   color: #409ad3;
@@ -412,8 +411,7 @@ main .services .services-title h3 {
 main .services .services-title h1 {
   color: #b0b0b0;
   font-size: 70px;
-  font-family: "Abril Fatface", sans-serif;
-  font-weight: bold;
+  font-family: "Abril Fatface", cursive;
   text-align: center;
 }
 main .services .services-cards {
@@ -460,8 +458,7 @@ main .products .products-title h3 {
 main .products .products-title h1 {
   color: #b0b0b0;
   font-size: 70px;
-  font-family: "Abril Fatface", sans-serif;
-  font-weight: bold;
+  font-family: "Abril Fatface", cursive;
   text-align: center;
 }
 main .products .products-cards {
@@ -529,8 +526,7 @@ main .container-banner .banner .container-description .description h3 {
 main .container-banner .banner .container-description .description h1 {
   color: #b0b0b0;
   font-size: 70px;
-  font-family: "Abril Fatface", sans-serif;
-  font-weight: bold;
+  font-family: "Abril Fatface", cursive;
   padding-bottom: 30px;
 }
 main .container-banner .banner .container-description .description p {
@@ -555,8 +551,7 @@ main .container-reviews .reviews .reviews-title h3 {
 main .container-reviews .reviews .reviews-title h1 {
   color: #b0b0b0;
   font-size: 70px;
-  font-family: "Abril Fatface", sans-serif;
-  font-weight: bold;
+  font-family: "Abril Fatface", cursive;
   text-align: center;
 }
 main .container-reviews .reviews .reviews-cards {
@@ -611,8 +606,7 @@ main .blog .blog-title h3 {
 main .blog .blog-title h1 {
   color: #b0b0b0;
   font-size: 70px;
-  font-family: "Abril Fatface", sans-serif;
-  font-weight: bold;
+  font-family: "Abril Fatface", cursive;
   text-align: center;
 }
 main .blog .blog-cards {
