@@ -359,7 +359,16 @@
               <h3 class="upper pb-30">follow us</h3>
               <!-- icone social networks -->
               <div class="container-icons">
-                <div class="icons">
+                <ul class="icons">
+                  <li v-for="icon in socialIcons">
+                    <!-- creo il link  -->
+                    <a :href=`${icon.link}`>
+                      <i :class="'fab fa-' + `${icon.name}`"></i>
+                    </a>
+                  </li>
+
+                <!-- icone statiche -->
+                <!-- <div class="icons">
                   <a href="#">
                     <i class="fab fa-facebook-f"></i>
                   </a>
@@ -372,14 +381,15 @@
                   <a href="#">
                     <i class="fab fa-instagram"></i>
                   </a>
-                </div>
+                </div> -->
+
               </div>
             </div>
             <!-- shop -->
             <div class="cards">
               <img src="dist/img/avadabarbers_footer_appointment_image.png" alt="appointment">
               <p class="lead">
-                <a class="btn btn-lg upper " href="#" role="button">book your appointment</a>
+                <a class="btn btn-lg upper" href="#" role="button">book your appointment</a>
               </p>
             </div>
           </div>

@@ -27,6 +27,7 @@ footer {
         }
         .container-icons {
           .icons {
+            display: flex;
             i {
               color: $color-silvergrey;
               padding: 0 5px;
