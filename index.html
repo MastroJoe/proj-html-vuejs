@@ -16,12 +16,12 @@
   <div id="root">
     <!-- header -->
     <header>
-      <!-- navbar fissa in alto -->
+      <!-- navbar fissa in alto con Bootstrap-->
       <div class="navbar">
         <nav class="navbar-items">
           <!-- navbar sx con logo -->
-          <div class="navbar-logo">
-            <a class="navbar-brand" href="#">
+          <div class="navbar-logo" v-for="btn in btnLogo">
+            <a class="navbar-brand" :href=`${btn.link}`>
               <img src="dist/img/avadabarbers-stickylogo-x1.png" width="170" height="60" alt="logo">
             </a>
           </div>
@@ -35,15 +35,6 @@
                   <i :class="'fas fa-' + `${icon.name}`"></i>
                 </a>
               </li>
-
-                <!-- icone statiche -->
-                <!-- <a class="cart" href="#">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-                <a class="bars" href="#">
-                  <i class="fas fa-bars"></i>
-                </a> -->
-
             </ul>
           </div>
         </nav>
@@ -59,7 +50,7 @@
             <h1 class="display-4">Barber Shop</h1>
             <hr class="my-4 mr-300">
             <p>The Pinnacle of Male Grooming</p>
-            <p class="lead pt-20">
+            <p class="pt-20">
               <a class="btn btn-lg upper " href="#" role="button">learn more</a>
             </p>
           </div>
@@ -75,7 +66,7 @@
         <div class="container-award">
           <h3 class="upper">award winning</h3>
           <h1>Pro Barbers</h1>
-          <p class="lead pt-20">
+          <p class="pt-20">
             <a class="btn btn-lg upper " href="#" role="button">meet your new barber</a>
           </p>
         </div>
@@ -128,7 +119,7 @@
             </div>
           </div>
           <!-- button -->
-          <p class="lead">
+          <p>
             <a class="btn btn-lg upper " href="#" role="button">read about our services</a>
           </p>
         </div>
@@ -169,7 +160,7 @@
             </div>
           </div>
           <!-- button -->
-          <p class="lead">
+          <p>
             <a class="btn btn-lg upper " href="#" role="button">shop our product range</a>
           </p>
         </div>
@@ -194,7 +185,7 @@
                 <br>
                 amet, consectetur adipiscing elit.
               </p>
-              <p class="lead">
+              <p>
                 <a class="btn btn-lg upper " href="#" role="button">buy now</a>
               </p>
             </div>
@@ -325,7 +316,7 @@
             </div>
           </div>
           <!-- button -->
-          <p class="lead">
+          <p>
             <a class="btn btn-lg upper " href="#" role="button">read more from our blog</a>
           </p>
         </div>
@@ -337,15 +328,17 @@
           <div class="container container-cards">
             <!-- suddivisione in 3 cards -->
             <!-- shop -->
-            <div class="cards">
-              <img src="dist/img/avadabarbers_footer_shop_image-800x624.png" alt="shop">
-              <p class="lead">
-                <a class="btn btn-lg upper " href="#" role="button">shop our range now</a>
-              </p>
+            <div class="cards" v-for="btn in btnShop">
+              <a :href=`${btn.link}`>
+                <img src="dist/img/avadabarbers_footer_shop_image-800x624.png" alt="shop">
+              </a>
+              <a class="btn btn-lg upper" :href=`${btn.link}` role="button">{{ btn.name }}</a>
             </div>
             <!-- contact info -->
-            <div class="cards">
-              <img src="dist/img/avadabarbers-logo-x2-200x70.png" alt="logo">
+            <div class="cards" v-for="btn in btnLogo">
+              <a :href=`${btn.link}`>
+                <img src="dist/img/avadabarbers-logo-x2-200x70.png" alt="logo">
+              </a>
               <p class="ptb-50">Avada barbers
                 <br>
                 123 New York Street
@@ -366,31 +359,15 @@
                       <i :class="'fab fa-' + `${icon.name}`"></i>
                     </a>
                   </li>
-
-                <!-- icone statiche -->
-                <!-- <div class="icons">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </div> -->
-
+                </ul>
               </div>
             </div>
             <!-- shop -->
-            <div class="cards">
-              <img src="dist/img/avadabarbers_footer_appointment_image.png" alt="appointment">
-              <p class="lead">
-                <a class="btn btn-lg upper" href="#" role="button">book your appointment</a>
-              </p>
+            <div class="cards" v-for="btn in btnBooking">
+              <a :href=`${btn.link}`>
+                <img src="dist/img/avadabarbers_footer_appointment_image.png" alt="appointment">
+              </a>
+              <a class="btn btn-lg upper" :href=`${btn.link}` role="button">{{ btn.name }}</a>
             </div>
           </div>
         </div>
@@ -416,3 +393,27 @@ Aggiungere Header e Footer con VueJs creando una struttura dati
 che consenta di inserire i link nelle navbar.
 Su questo non ci sono API da interrogare, ma create i dati a mano nel
 vostro js. -->
+
+<!-- icone statiche -->
+<!-- <a class="cart" href="#">
+  <i class="fas fa-shopping-cart"></i>
+</a>
+<a class="bars" href="#">
+  <i class="fas fa-bars"></i>
+</a> -->
+
+<!-- icone statiche -->
+<!-- <div class="icons">
+  <a href="#">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="#">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="#">
+    <i class="fab fa-youtube"></i>
+  </a>
+  <a href="#">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div> -->

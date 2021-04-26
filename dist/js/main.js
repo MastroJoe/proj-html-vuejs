@@ -10,6 +10,7 @@
 Vue.config.devtools = true;
 var app = new Vue({
   el: '#root',
+  // creo struttura dati con i link
   data: {
     // HEADER
     navbarImg: [{
@@ -35,6 +36,20 @@ var app = new Vue({
       link: '#'
     }, {
       name: 'instagram',
+      link: '#'
+    }],
+    // BUTTONS
+    // LOGO
+    btnLogo: [{
+      link: '#'
+    }],
+    // FOOTER
+    btnShop: [{
+      name: 'shop our range now',
+      link: '#'
+    }],
+    btnBooking: [{
+      name: 'book your appointment',
       link: '#'
     }]
   }
