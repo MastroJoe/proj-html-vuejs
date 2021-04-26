@@ -13,16 +13,16 @@ var app = new Vue({
   data: {
     // HEADER
     navbarImg: [{
-      name: 'Home',
+      name: '',
       link: '#'
     }],
     navbarIcons: [{
       name: 'shopping-cart',
       link: '#'
     }, {
-      name: 'bag',
+      name: 'bars',
       link: '#'
-    }] // FOOTER  
+    }] // FOOTER
 
   }
 });

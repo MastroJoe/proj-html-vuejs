@@ -13,16 +13,12 @@ a:-webkit-any-link {
   text-decoration: none !important;
 }
 
-ul {
+ul li {
   list-style: none;
 }
 
 img {
   cursor: pointer;
-}
-
-.navbar {
-  padding: 0;
 }
 
 .container {
@@ -310,20 +306,17 @@ header .navbar .navbar-items {
   align-items: center;
   width: 100%;
 }
-header .navbar .navbar-items .navbar-icons .cart i {
+header .navbar .navbar-items .navbar-icons ul {
+  display: flex;
+}
+header .navbar .navbar-items .navbar-icons ul li a i {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
+  text-shadow: 0 0 3px #000;
+  padding-left: 15px;
 }
-header .navbar .navbar-items .navbar-icons .cart i:hover {
-  color: #409ad3;
-}
-header .navbar .navbar-items .navbar-icons .bars i {
-  color: #ffffff;
-  padding-left: 20px;
-  font-size: 23px;
-}
-header .navbar .navbar-items .navbar-icons .bars i:hover {
+header .navbar .navbar-items .navbar-icons ul li a i:hover {
   color: #409ad3;
 }
 

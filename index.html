@@ -27,12 +27,24 @@
           </div>
           <!-- navbar dx con icone -->
           <div class="navbar-icons">
-            <a class="cart" href="#">
-              <i class="fas fa-shopping-cart"></i>
-            </a>
-            <a class="bars" href="#">
-              <i class="fas fa-bars"></i>
-            </a>
+            <!-- lista icone, ciclo con Vue -->
+            <ul>
+              <li v-for="icon in navbarIcons">
+                <!-- creo il link  -->
+                <a :class="`${icon.name}`":href=`${icon.link}`>
+                  <i :class="'fas fa-' + `${icon.name}`"></i>
+                </a>
+              </li>
+
+                <!-- icone statiche -->
+                <!-- <a class="cart" href="#">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+                <a class="bars" href="#">
+                  <i class="fas fa-bars"></i>
+                </a> -->
+
+            </ul>
           </div>
         </nav>
       </div>

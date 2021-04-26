@@ -6,7 +6,7 @@ var app = new Vue ({
     // HEADER
     navbarImg: [
       {
-        name: 'Home',
+        name: '',
         link: '#'
       }
     ],
@@ -16,10 +16,10 @@ var app = new Vue ({
         link: '#'
       },
       {
-        name: 'bag',
+        name: 'bars',
         link: '#'
       },
     ],
-    // FOOTER  
+    // FOOTER
   }
 });

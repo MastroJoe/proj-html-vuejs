@@ -13,23 +13,20 @@ header {
       .navbar-logo {
       }
       .navbar-icons {
-        .cart {
-          i {
-            color: $color-white;
-            font-size: 20px;
-            text-align: center;
-            &:hover {
-              color: $color-wood;
-            }
-          }
-        }
-        .bars {
-          i {
-            color: $color-white;
-            padding-left: 20px;
-            font-size: 23px;
-            &:hover {
-              color: $color-wood;
+        ul {
+          display: flex;
+          li {
+            a {
+              i {
+                color: $color-white;
+                font-size: 25px;
+                text-align: center;
+                text-shadow: 0 0 3px #000;
+                padding-left: 15px;
+                &:hover {
+                  color: $color-wood;
+                }
+              }
             }
           }
         }
