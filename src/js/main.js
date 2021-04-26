@@ -40,8 +40,6 @@ var app = new Vue ({
         link: '#'
       },
     ],
-<<<<<<< HEAD
-
     // BUTTONS
     // LOGO
     btnLogo: [
@@ -62,7 +60,5 @@ var app = new Vue ({
         link: '#'
       }
     ]
-=======
->>>>>>> master
   }
 });
