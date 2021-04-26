@@ -685,6 +685,9 @@ footer .footer-top .container-cards .cards h3 {
   font-size: 18px;
   font-weight: bold;
 }
+footer .footer-top .container-cards .cards .container-icons .icons {
+  display: flex;
+}
 footer .footer-top .container-cards .cards .container-icons .icons i {
   color: #b0b0b0;
   padding: 0 5px;

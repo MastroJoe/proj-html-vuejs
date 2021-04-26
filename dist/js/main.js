@@ -22,8 +22,21 @@ var app = new Vue({
     }, {
       name: 'bars',
       link: '#'
-    }] // FOOTER
-
+    }],
+    // FOOTER
+    socialIcons: [{
+      name: 'facebook-f',
+      link: '#'
+    }, {
+      name: 'twitter',
+      link: '#'
+    }, {
+      name: 'youtube',
+      link: '#'
+    }, {
+      name: 'instagram',
+      link: '#'
+    }]
   }
 });
 
