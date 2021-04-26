@@ -7,53 +7,7 @@
   \************************/
 /***/ (() => {
 
-Vue.config.devtools = true;
-var app = new Vue({
-  el: '#root',
-  // creo struttura dati con i link
-  data: {
-    // HEADER
-    navbarImg: [{
-      name: '',
-      link: '#'
-    }],
-    navbarIcons: [{
-      name: 'shopping-cart',
-      link: '#'
-    }, {
-      name: 'bars',
-      link: '#'
-    }],
-    // FOOTER
-    socialIcons: [{
-      name: 'facebook-f',
-      link: '#'
-    }, {
-      name: 'twitter',
-      link: '#'
-    }, {
-      name: 'youtube',
-      link: '#'
-    }, {
-      name: 'instagram',
-      link: '#'
-    }],
-    // BUTTONS
-    // LOGO
-    btnLogo: [{
-      link: '#'
-    }],
-    // FOOTER
-    btnShop: [{
-      name: 'shop our range now',
-      link: '#'
-    }],
-    btnBooking: [{
-      name: 'book your appointment',
-      link: '#'
-    }]
-  }
-});
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\utente\\Documents\\Atom\\Boolean-Esercizi\\proj-html-vuejs\\src\\js\\main.js: Unexpected token (43:0)\n\n\u001b[0m \u001b[90m 41 |\u001b[39m       }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m     ]\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m \u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<<\u001b[39m\u001b[33m<\u001b[39m \u001b[33mHEAD\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 44 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m     \u001b[90m// BUTTONS\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m     \u001b[90m// LOGO\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\utente\\Documents\\Atom\\Boolean-Esercizi\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:776:17)\n    at Parser.raiseWithData (C:\\Users\\utente\\Documents\\Atom\\Boolean-Esercizi\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:769:17)\n    at Parser.raise (C:\\Users\\utente\\Documents\\Atom\\Boolean-Esercizi\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:737:17)\n    at Parser.unexpected (C:\\Users\\utente\\Documents\\Atom\\Boolean-Esercizi\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:9736:16)\n    at Parser.parseIdentifierName (C:\\Users\\utente\\Documents\\Atom\\Boolean-Esercizi\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11900:18)\n    at Parser.parseIdentifier (C:\\Users\\utente\\Documents\\Atom\\Boolean-Esercizi\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11873:23)\n    at Parser.parseMaybePrivateName (C:\\Users\\utente\\Documents\\Atom\\Boolean-Esercizi\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11202:19)\n    at Parser.parsePropertyName (C:\\Users\\utente\\Documents\\Atom\\Boolean-Esercizi\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11687:155)\n    at Parser.parsePropertyDefinition (C:\\Users\\utente\\Documents\\Atom\\Boolean-Esercizi\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11573:22)\n    at Parser.parseObjectLike (C:\\Users\\utente\\Documents\\Atom\\Boolean-Esercizi\\proj-html-vuejs\\node_modules\\@babel\\parser\\lib\\index.js:11488:25)");
 
 /***/ }),
 

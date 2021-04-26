@@ -40,6 +40,7 @@ var app = new Vue ({
         link: '#'
       },
     ],
+<<<<<<< HEAD
 
     // BUTTONS
     // LOGO
@@ -61,5 +62,7 @@ var app = new Vue ({
         link: '#'
       }
     ]
+=======
+>>>>>>> master
   }
 });
