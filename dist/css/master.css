@@ -17,6 +17,10 @@ ul {
   list-style: none;
 }
 
+img {
+  cursor: pointer;
+}
+
 .container {
   width: 65%;
   margin: 0 auto;
@@ -50,11 +54,11 @@ hr {
   font-weight: 700;
   border-radius: 0;
   border-width: 2px;
-  border-color: #ae8652;
-  color: #ae8652;
+  border-color: #409ad3;
+  color: #409ad3;
 }
 .btn:hover {
-  color: #ae8652;
+  color: #409ad3;
   opacity: 0.6;
 }
 
@@ -100,9 +104,9 @@ hr {
   padding-bottom: 30px;
 }
 
-.ptb-45 {
-  padding-top: 45px;
-  padding-bottom: 45px;
+.ptb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .plr-5 {
@@ -343,7 +347,7 @@ main .jumbotron .container .container-info .display-4 {
   font-weight: bold;
 }
 main .jumbotron .container .container-info .my-4 {
-  border-color: #ae8652;
+  border-color: #409ad3;
 }
 main .jumbotron .container .container-info p {
   color: #88928f;
@@ -376,7 +380,7 @@ main .award .container-award {
   height: 300px;
 }
 main .award .container-award h3 {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 18px;
   font-weight: bold;
 }
@@ -387,7 +391,7 @@ main .award .container-award h1 {
   font-weight: bold;
 }
 main .award .container-award a {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 17px;
 }
 main .services {
@@ -400,7 +404,7 @@ main .services {
   align-items: center;
 }
 main .services .services-title h3 {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -426,7 +430,7 @@ main .services .services-cards .card {
   align-items: center;
 }
 main .services .services-cards .card h4 {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -448,7 +452,7 @@ main .products {
   align-items: center;
 }
 main .products .products-title h3 {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -472,14 +476,14 @@ main .products .products-cards .cards {
   align-items: center;
 }
 main .products .products-cards .cards h4 {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
 }
 main .products .products-cards .cards p {
   text-align: center;
-  color: #ae8652;
+  color: #409ad3;
 }
 main .container-banner {
   height: 500px;
@@ -497,7 +501,11 @@ main .container-banner .banner .container-img {
   background-position: left top;
   border-style: solid;
   border-width: 4px 0px 0px;
-  border-color: #ae8652;
+  border-color: #409ad3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 main .container-banner .banner .container-description {
   width: 100%;
@@ -505,7 +513,7 @@ main .container-banner .banner .container-description {
   justify-content: center;
   border-style: solid;
   border-width: 4px 0px 0px;
-  border-color: #ae8652;
+  border-color: #409ad3;
   background-color: #111110;
 }
 main .container-banner .banner .container-description .description {
@@ -514,7 +522,7 @@ main .container-banner .banner .container-description .description {
   justify-content: center;
 }
 main .container-banner .banner .container-description .description h3 {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 18px;
   font-weight: bold;
 }
@@ -539,7 +547,7 @@ main .container-reviews {
   align-items: center;
 }
 main .container-reviews .reviews .reviews-title h3 {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -579,7 +587,7 @@ main .container-reviews .reviews .reviews-cards .card span img {
   border-radius: 200px;
 }
 main .container-reviews .reviews .reviews-cards .card h3 {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -595,7 +603,7 @@ main .blog {
   align-items: center;
 }
 main .blog .blog-title h3 {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -627,10 +635,11 @@ main .blog .blog-cards .cards img {
   height: auto;
 }
 main .blog .blog-cards .cards h4 {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+  padding: 15px 0;
 }
 main .blog .blog-cards .cards p {
   text-align: center;
@@ -668,12 +677,13 @@ footer .footer-top .container-cards .cards p .btn {
   font-size: 14;
 }
 footer .footer-top .container-cards .cards h3 {
-  color: #ae8652;
+  color: #409ad3;
   font-size: 18px;
   font-weight: bold;
 }
 footer .footer-top .container-cards .cards .container-icons .icons i {
   color: #b0b0b0;
+  padding: 0 5px;
 }
 footer .footer-bottom {
   height: 100px;
