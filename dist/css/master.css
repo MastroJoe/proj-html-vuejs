@@ -39,10 +39,6 @@ ul li {
   height: 120px;
 }
 
-hr {
-  border-top: 4px solid rgba(0, 0, 0, 0.1);
-}
-
 .btn {
   padding: 18px 40px;
   line-height: 21px;
@@ -68,6 +64,10 @@ hr {
 
 .italic {
   font-style: italic;
+}
+
+hr {
+  border-top: 4px solid rgba(0, 0, 0, 0.1);
 }
 
 .ptb-5 {
